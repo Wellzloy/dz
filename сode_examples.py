@@ -1,3 +1,5 @@
+import time
+print(time.strftime('%H:%M:%S %d %Y %A %B ', time.localtime()))
 # 003
 # print('003')
 # print('What do you call a bear with no teeth? \nA gummy bear!')
@@ -25,3 +27,6 @@
 # two = float(input('Введите количество участников: '))
 # print(f'Каждый участник должен заплатить: {one / two} рубля')
 
+# 009
+# one = int(input('Укажите количество дней: '))
+# print(f'В {one} днях содержится {one*24} часа, или {one*24*60} минуты, или {one*24*60*60} секунды')
